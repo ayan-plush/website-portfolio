@@ -22,14 +22,14 @@ function Eyes() {
             <div className='flex items-center justify-center w-[15vw] h-[15vw] bg-white rounded-full'>
                 <div className=' relative  w-2/3 h-2/3 rounded-full bg-zinc-900'>
                 <div style={{transform: `translate(-50%,-50%) rotate(${rotate}deg)`}} className='absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] w-full h-10'>
-                <div className='w-10 h-10 rounded-full bg-zinc-100'></div>
+                <div className='w-[3vw] h-[3vw] rounded-full bg-zinc-100'></div>
                 </div>
                 </div>
             </div>
             <div className='flex items-center justify-center w-[15vw] h-[15vw] bg-white rounded-full'>
                 <div className=' relative  w-2/3 h-2/3 rounded-full bg-zinc-900'>
                 <div style={{transform: `translate(-50%,-50%) rotate(${rotate+20}deg)`}} className='absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] line w-full h-10'>
-                <div className='w-10 h-10 rounded-full bg-zinc-100'></div>
+                <div className='w-[3vw] h-[3vw] rounded-full bg-zinc-100'></div>
                 </div>
                 </div>
             </div>

@@ -16,7 +16,7 @@ function About() {
           </Link>
 
         </div>
-        <div className="w-1/2 h-[70vh] bg-[url('/assets/mememe.jpeg')] bg-cover rounded-3xl"></div>
+        <div className="w-1/2 h-[40vw] bg-[url('/assets/mememe.jpeg')] bg-cover bg-center rounded-3xl"></div>
       </div>
     </div>
   )
