@@ -9,13 +9,13 @@ function Features() {
             <div className='cont cont w-1/2 h-[80vh]'>
             <h1 className="px-5 py-3 text-[3vh] font-['Neue_Montreal']"> Machine learning project</h1>
             <div className="cardcontainer w-full  rounded-3xl h-[70vh] overflow-hidden ">
-            <div className="card w-full h-full rounded-3xl hover:scale-95 bg-cover bg-[url('..\assets\mllung.jpeg')] bg-center"></div>
+            <div className="card w-full h-full rounded-3xl hover:scale-95 bg-cover bg-[url('/assets/mllung.jpeg')] bg-center"></div>
             </div>
             </div>
             <div className='cont cont w-1/2 h-[80vh]'>
             <h1 className="px-5 py-3 text-[3vh] font-['Neue_Montreal']"> web devlopment react project</h1>
             <div className="cardcontainer w-full rounded-3xl h-[70vh] overflow-hidden">
-            <div className="card w-full h-full bg-zinc-800 rounded-3xl hover:scale-95 bg-cover bg-[url('..\assets\compon.png')] bg-center "></div>
+            <div className="card w-full h-full bg-zinc-800 rounded-3xl hover:scale-95 bg-cover bg-[url('/assets/compon.png')] bg-center "></div>
             </div>
             </div>
         </div>
