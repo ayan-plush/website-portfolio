@@ -13,7 +13,7 @@ function LandingPage() {
         </div></div>
         })}
       </div>
-      <div className=" w-[30vw] h-[30vw] mt-20 bg-cover hover:bg-[url('..\src\assets\compon.png')] bg-[url('..\src\assets\compoff.png')] "></div>
+      <div className=" w-[30vw] h-[30vw] mt-20 bg-cover hover:bg-[url('..\assets\compon.png')] bg-[url('..\assets\compoff.png')] "></div>
       </div>
       <div className='border-t-[1px] border-zinc-800 mt-[3vw] flex justify-between item-center py-10 px-20'>
         {["Online Portfolio",'Ayan Jyotir Khajuria'].map((item,index)=><p className='text-md font-light tracking-tight leading-none'>{item}</p>)}
