@@ -1,6 +1,8 @@
 import React from 'react'
 import { createHashRouter, RouterProvider} from 'react-router-dom';
 import House from './House'
+import Aboutme from './Aboutme';
+import Contactme from './Contactme';
 
 function App() {
   const router = createHashRouter([
@@ -10,15 +12,11 @@ function App() {
     },
     {
       path: "/aboutme",
-      element: <House/>
-    },
-    {
-      path: "/gallery",
-      element: <House/>
+      element: <Aboutme/>
     },
     {
       path: "/contact",
-      element: <House/>
+      element: <Contactme/>
     }
   ])
   return (

@@ -10,9 +10,9 @@ function About() {
       <div className='w-full mt-10 border-t-[1px] pt-10 flex gap-5 border-[#9daf41]'>
         <div className='w-1/2'>
         <h1 className='text-3xl mt-3 mb-5'>ABOUT ME</h1>
-        <Link to="/aboutme" className="px-4 py-2 w-[9.5vw] bg-zinc-900 text-[1vw] mt-3 flex items-center rounded-full text-zinc-100">
+        <Link to="/aboutme" className="px-4 py-2 w-[10vw] bg-zinc-900 text-[1vw] mt-3 flex items-center rounded-full text-zinc-100">
           READ MORE
-          <div className="ml-3 w-3 h-3 bg-white rounded-full"></div>
+          <div className="ml-[1vw] w-[0.5vw] h-[0.5vw] bg-white rounded-full"></div>
           </Link>
 
         </div>
