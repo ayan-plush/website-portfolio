@@ -1,23 +1,23 @@
 import React from 'react'
-import { createBrowserRouter ,RouterProvider} from 'react-router-dom';
+import { createHashRouter, RouterProvider} from 'react-router-dom';
 import House from './House'
 
 function App() {
-  const router = createBrowserRouter([
+  const router = createHashRouter([
     {
-      path: "https://ayan-plush.github.io/website-portfolio/",
+      path: "/",
       element: <House/>
     },
     {
-      path: "https://ayan-plush.github.io/website-portfolio/aboutme",
+      path: "/aboutme",
       element: <House/>
     },
     {
-      path: "https://ayan-plush.github.io/website-portfolio/gallery",
+      path: "/gallery",
       element: <House/>
     },
     {
-      path: "https://ayan-plush.github.io/website-portfolio/contact",
+      path: "/contact",
       element: <House/>
     }
   ])
