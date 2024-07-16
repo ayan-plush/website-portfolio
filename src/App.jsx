@@ -5,19 +5,19 @@ import House from './House'
 function App() {
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: "https://ayan-plush.github.io/website-portfolio/",
       element: <House/>
     },
     {
-      path: "/aboutme",
+      path: "https://ayan-plush.github.io/website-portfolio/aboutme",
       element: <House/>
     },
     {
-      path: "/gallery",
+      path: "https://ayan-plush.github.io/website-portfolio/gallery",
       element: <House/>
     },
     {
-      path: "/contact",
+      path: "https://ayan-plush.github.io/website-portfolio/contact",
       element: <House/>
     }
   ])
