@@ -12,10 +12,11 @@ function House() {
   return (
     <div>
       <div className='w-full min-h-screen bg-zinc-900 text-white'>
-      <Navbar/>
       <Parallax pages={4.3}>
       
-      <ParallaxLayer speed={-0.2} ><LandingPage/></ParallaxLayer>
+      <ParallaxLayer speed={-0.2} >
+        <Navbar/>
+        <LandingPage/></ParallaxLayer>
       
       <ParallaxLayer offset={0.99} speed={0.7}><Marquee/></ParallaxLayer>
       
