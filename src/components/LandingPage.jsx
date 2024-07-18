@@ -21,9 +21,9 @@ function LandingPage() {
       <div className='border-t-[1px] border-zinc-800 mt-[3vh] flex justify-between item-center py-[5vh] px-[5vw]'>
         {["Online Portfolio",'Ayan Jyotir Khajuria'].map((item,index)=><p className='text-md font-light tracking-tight text-[1vw] leading-none'>{item}</p>)}
         <div className='start flex items-center gap-5'>
-            <div className='px-[1vw] py-[1vh] border-[2px] border-zinc-500 font-light text-sm rounded-full text-[1vw] uppercase'>scroll down</div>
+            <div className='px-[1vw] py-[1vh] border-[2px] border-zinc-500 font-light text-sm rounded-full text-[1vw] uppercase'>hover</div>
             <div className='w-9 h-9 rounded-full border-[2px] border-zinc-500 flex justify-center items-center'>
-                <span className='rotate-[180deg]'><FaLongArrowAltUp /></span>
+                <span className='rotate-[315deg]'><FaLongArrowAltUp /></span>
                 </div>
         </div>
       </div>

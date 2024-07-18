@@ -17,7 +17,7 @@ function House() {
       
       <ParallaxLayer speed={-0.2} ><LandingPage/></ParallaxLayer>
       
-      <ParallaxLayer offset={0.99} speed={0.5}><Marquee/></ParallaxLayer>
+      <ParallaxLayer offset={0.99} speed={0.7}><Marquee/></ParallaxLayer>
       
       <ParallaxLayer offset={0.99} speed={0.15}><About/></ParallaxLayer>
       
