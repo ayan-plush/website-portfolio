@@ -1,16 +1,19 @@
 import React from 'react';
 import { FaLongArrowAltUp } from "react-icons/fa";
+import {Parallax,ParallaxLayer} from '@react-spring/parallax';
 
 
 function LandingPage() {
   return (
-    <div className=' data-scroll data-scroll-speed="-.8" w-full h-screen bg-zinc-900 pt-1'>
-      <div className=' landi flex items-center '>
+    <div className='  w-full h-screen bg-zinc-900 pt-1'>
+      <div className=' landi flex items-center data-scroll-speed="-.8" '>
       <div className='textstructure p-[5vw]'>
         {["Welcome","everyone","all set to begin ?"].map((item,index)=>{
-            return <div className='masker'><div className='w-fit flex items-center'>
+            return <div className='masker'>
+              <div className='w-fit flex items-center'>
             <h1 className="uppercase leading-[5.5vw] tracking-tighter text-[6.7vw]  font-['Founders_Grotesk_X-Condensed' src:'my-finalwebapp\public\fonts'] font-medium">{item}</h1>
-        </div></div>
+        </div>
+        </div>
         })}
       </div>
       <div className=" w-[30vw] h-[30vw] mt-[5vh] bg-cover hover:bg-[url('/assets/compon.png')] bg-[url('/assets/compoff.png')] "></div>

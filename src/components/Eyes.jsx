@@ -15,8 +15,8 @@ function Eyes() {
         })
     })
   return (
-    <div className=" w-full h-screen overflow-hidden rounded-tl-3xl rounded-tr-3xl flex justify-center items-center bg-zinc-100 ">
-        <div className=' absolute w-[90vw] h-[75vh] bg-zinc-800 flex justify-center items-center rounded-3xl'>
+    <div className=" w-full h-[120vh] overflow-hidden  flex justify-center items-center bg-zinc-100 ">
+        <div className=' absolute w-[90vw] h-[120vh] bg-zinc-800 flex justify-center items-center rounded-3xl'>
       <div className="relative -translate-y-[8%] w-[70vw] h-[85vh] ">
         <div className='absolute flex gap-10 top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%]'>
             <div className='flex items-center justify-center w-[15vw] h-[15vw] bg-white rounded-full'>
